@@ -1,5 +1,9 @@
 /* Task 17: Adding padding to sections */
 
+* {
+  box-sizing: border-box;
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 
 /* Document
@@ -379,10 +383,6 @@ template {
   --section-footer-padding: 3rem 0 0;
   --section-footer-align: center;
   --footer-padding: 5rem 0 1rem;
-}
-
-* {
-  box-sizing: border-box;
 }
 
 html {
